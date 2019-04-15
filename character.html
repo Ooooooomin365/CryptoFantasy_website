@@ -1,0 +1,93 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CRYPTO FANTASY 公式サイト</title>
+<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+
+<h1><a href="index.html"><img src="picture/home5.jpg" width="581" height="74" alt="title picture"></h1>
+<ul id="nav">
+	<li><a href="index.html">ホーム</a></li>
+	<li><a href="story.html">ストーリー</a></li>
+	<li><a href="character.html">キャラクター</a></li>
+	<li><a href="system.html">システム</a></li>
+	<li><a href="aboutme.html">制作者情報</a></li>
+</ul>
+<h2>キャラクター紹介</h2>
+<div class="character">
+	<div class="select">
+		<table class="character_all">
+			<tr class="satoshi1">
+				<td class="photo">
+					<a href="picture/satoshi.jpg"><img src="picture/satoshi.jpg" width="200" height="238" alt="satoshi">
+				</td>
+				<td id="name">
+				サトシ
+				</td>
+			</tr>
+			<tr class="apple1">
+				<td class="photo">
+					<a href="picture/apple.jpg"><img src="picture/apple.jpg" width="200" height="238" alt="apple">
+				</td>
+				<td id="name">
+				りんご
+				</td>
+			</tr>
+			<tr class="max1">
+				<td class="photo">
+					<a href="picture/max.jpg"><img src="picture/max.jpg" width="200" height="238" alt="max">
+				</td>
+				<td id="name">
+				マックス君	
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="main">
+	<div class="main1">
+		<img src="picture/satoshi.jpg" width="550" height="654" alt="satoshi">
+		<h3>サトシ</h3>
+		<p id="who">世界一の大剣豪！！！！！を夢見る若者。<br>日々鍛錬をしすぎたせいか、少し肌が黒いのが特徴的。今回のゲームの主人公である。</p>
+	</div>
+	<div class="main2">
+		<img src="picture/apple.jpg" width="550" height="654" alt="apple">
+		<h3>りんご</h3>
+		<p id="who">世界中を駆け巡る冒険家。将来の夢は貧しい地域を活性化させること。名前の由来はとある仮想通貨界隈のインフルエンサーの名前。</p>
+	</div>
+	<div class="main3">
+		<img src="picture/max.jpg" width="550" height="654" alt="max">
+		<h3>マックス君</h3>
+		<p id="who">普段はのんびり屋だが、やるときはやる高校生。特技は「遅刻」、口癖は「オスシタベタイデース！」。師匠は仮想通貨の天才販売員である<br><strong><a href="https://twitter.com/WtKZ3UacgqTq75S">塩漬けの達人</a></strong>。
+	</div>
+	</div>
+</div>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script>
+	$('.main2').hide();
+	$('.main3').hide();
+
+$('.satoshi1').click(function(){
+	$('.main1').show(1000);
+	$('.main2').hide(1000);
+	$('.main3').hide(1000);
+	return false;
+});
+
+$('.apple1').click(function(){
+	$('.main1').hide(1000);
+	$('.main2').show(1000);
+	$('.main3').hide(1000);
+	return false;
+});
+
+$('.max1').click(function(){
+	$('.main1').hide(1000);
+	$('.main2').hide(1000);
+	$('.main3').show(1000);
+	return false;
+});
+</script>
+</body>
+</html>

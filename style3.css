@@ -1,0 +1,65 @@
+﻿@charset "utf-8";
+
+body {
+	background-color: #f3ffd8;
+	width:1400px;
+	margin:0 auto;
+}
+
+h1 {
+	border-bottom-width:2px;
+	border-bottom-style: solid;
+	border-bottom-color: #75a9ff;
+	padding-bottom:0px;
+	text-align:center;
+	margin-bottom:0px;
+}
+
+#nav li{
+	display: inline;
+	list-style-type: none;
+	padding-right:100px;
+	padding-left:20px;
+	font-size:30px;	
+	
+}
+
+#nav {
+	margin: 0 0 0 0;
+	padding; 0px 30px 0px 30px;
+	background-image: url(picture/home8.png);
+	line-height:60px;
+	text-align:center;
+}
+
+#nav li a:link{
+	color:#cccccc;
+	text-decoration:none;
+}
+
+#nav li a:visited{
+	color:#cccccc;
+	text-decoration:none;
+}
+
+#nav li a:hover{
+	color:#5507ff;
+	text-decoration:none;
+	font-size:36px;
+}
+
+#nav li a:active{
+	color:#00ecff;
+	text-decoration:none;
+	font-size:36px;
+}
+
+#howto{	
+	font-size:28px;
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+	width:567px;
+}

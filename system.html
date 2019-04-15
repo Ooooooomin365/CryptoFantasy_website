@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CRYPTO FANTASY 公式サイト</title>
+<link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+
+<h1><a href="index.html"><img src="picture/home5.jpg" width="581" height="74" alt="title picture"></h1>
+<ul id="nav">
+	<li><a href="index.html">ホーム</a></li>
+	<li><a href="story.html">ストーリー</a></li>
+	<li><a href="character.html">キャラクター</a></li>
+	<li><a href="system.html">システム</a></li>
+	<li><a href="aboutme.html">制作者情報</a></li>
+</ul>
+<div class="fieldmove">
+<h2>フィールド上</h2>
+<table class="field scene">
+	<tr>
+		<td>
+		<img src="picture/home6.png" width="567" height="319" alt="field">
+		</td>
+		<td id="howto">
+		<p>大魔王「ドール」を探しに行こう！<br>歩いている途中はランダムで敵が出るというフ〇イナルファンタジーや、ドラ〇エのようなシステムになっているぞ。<br>カーソルキー"↑"で前進、"←""→"で方向転換だ。さあ、行こう！</p>
+		</td>
+	</tr>
+</table>
+</div>
+<div class="battlemove">
+<h2>バトルシーン</h2>
+<table class="battle scene">
+	<tr>
+		<td>
+		<img src="picture/home7.png" width="567" height="319" alt="battle scene">
+		</td>
+		<td id="howto">
+		<p>臨場感あふれるバトルシーン！<br>鮮明な3Dグラフィックに迫力のあるエフェクトも搭載。<br>一見、フ〇イナルファンタジーそっくりではあるが、それの劣化版でしかないので期待しすぎると落ち込むかもしれない。<br>操作方法についてだが、各キャラクターごとに攻撃だ！ターンは順番に回ってきて"P"で通常攻撃、"O"で攻撃魔法（MP40消費）、"L"で回復魔法（MP40消費）だ。ただし回復魔法はボス戦でしか使えないぞ！<br>ぜひ楽しんでくれ！</p>
+		</td>
+	</tr>
+</table>
+</div>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script>
+$('.fieldmove').hide();
+$('.battlemove').hide();
+
+$(function(){
+$('.fieldmove').fadeIn(2000);
+$('.battlemove').fadeIn(4500);
+});
+
+</script>
+</body>
+</html>
